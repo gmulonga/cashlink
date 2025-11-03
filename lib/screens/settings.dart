@@ -44,6 +44,14 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         ),
                         _buildDivider(),
                         _buildSettingsItem(
+                          icon: Icons.wallet,
+                          title: 'My Wallet',
+                          subtitle: 'Check the balance of your account',
+                          onTap: () {
+                          },
+                        ),
+                        _buildDivider(),
+                        _buildSettingsItem(
                           icon: Icons.delete_outline,
                           title: 'Delete Account',
                           subtitle: 'Permanently remove your account',

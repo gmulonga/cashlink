@@ -220,6 +220,7 @@ class HomeScreen extends StatelessWidget {
                   _buildStockCard('BRITAM', 'BRITAM Corp.', '\$332.76', '+20.34%', true),
                   const SizedBox(height: 10),
                   _buildStockCard('CIC', 'CIC Ins.', '\$142.76', '-2.34%', false),
+                  const SizedBox(height: 20),
                 ],
               ),
             ),

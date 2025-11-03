@@ -1,4 +1,6 @@
 import 'package:cashlink/config/constants.dart';
+import 'package:cashlink/screens/bottom_nav.dart';
+import 'package:cashlink/screens/homepage.dart';
 import 'package:cashlink/widgets/custom_button.dart';
 import 'package:cashlink/widgets/custom_input.dart';
 import 'package:flutter/material.dart';
@@ -20,9 +22,10 @@ class _LoginScreenState extends State<LoginScreen>
   final GlobalKey<FormState> _loginKey = GlobalKey<FormState>();
 
   Future<void> _login() async {
-    if (!_loginKey.currentState!.validate()) {
-      return;
-    }
+    Navigator.push(
+      context,
+      MaterialPageRoute(builder: (context) => const Dashboard()),
+    );
   }
 
   @override
