@@ -144,9 +144,9 @@ class _InterestScreenState extends State<InterestScreen> {
                                   FlSpot(1, 6),
                                   FlSpot(2, 8),
                                   FlSpot(3, 7),
-                                  FlSpot(4, 9),
+                                  FlSpot(4, 13),
                                   FlSpot(5, 10),
-                                  FlSpot(6, 14),
+                                  FlSpot(6, 9),
                                 ],
                                 isCurved: true,
                                 gradient: LinearGradient(
