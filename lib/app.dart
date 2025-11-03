@@ -1,14 +1,6 @@
 import 'package:flutter/material.dart';
 
-// Example placeholder for your LoginScreen
-class LoginScreen extends StatelessWidget {
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      body: Center(child: Text("Login Screen")),
-    );
-  }
-}
+import 'auth/login_screen.dart';
 
 class MyApp extends StatefulWidget {
   @override
@@ -21,7 +13,6 @@ class _MyAppState extends State<MyApp> {
   @override
   void initState() {
     super.initState();
-    // Simulate initialization (like loading configs, etc.)
     _combinedFuture = _initializeApp();
   }
 
